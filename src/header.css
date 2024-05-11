@@ -1,0 +1,13 @@
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    margin-right: 20px; /* Adjust spacing between list items as needed */
+}
+
+.header nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
